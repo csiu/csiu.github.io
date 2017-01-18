@@ -1,0 +1,14 @@
+---
+title: CGS-M
+subtitle: $17,500
+layout: default
+modal-id: 5
+date:
+img: startup-framework.png
+thumbnail: startup-framework-thumbnail.png
+alt: image-alt
+project-date: 2015
+category: Award
+description: The objective of the Canada Graduate Scholarships - Master’s Program (CGSM) is to help develop research skills and assist in the training of highly qualified personnel by supporting students who demonstrate a high standard of achievement in undergraduate and early graduate studies. Administered by the Tri-Council (NSERC, SSHRC, CIHR), CGS-M is a non-renewable award valued at $17,500 for 12 months.
+
+---

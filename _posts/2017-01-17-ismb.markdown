@@ -1,0 +1,14 @@
+---
+title: ISMB 2016
+subtitle: Travel awards & Poster prize
+layout: default
+modal-id: 2
+date:
+img: escape.png
+thumbnail: escape-thumbnail.png
+alt: image-alt
+project-date: July 8-12, 2016
+category:
+description: ISMB, hosted by the International Society for Computational Biology (ISCB), is the world’s largest bioinformatics/computational biology conference. It is a multidisciplinary forum for disseminating the latest developments and applications of advanced computational methods for biological problems.<br>Highlights<br>Awarded the CEEHRC Travel Award valued at $1000<br>Awarded the John Bosdet Memorial Fund valued at $500<br>First time on a plane<br>Presented a poster during the Special Interest Group meeting & during the main conference<br>Awarded a poster prize from the RegGenSIG<br>
+
+---

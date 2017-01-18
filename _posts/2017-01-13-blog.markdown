@@ -1,0 +1,14 @@
+---
+title: Blog
+subtitle: Stories from data
+layout: default
+modal-id: 6
+date:
+img: roundicons.png
+thumbnail: roundicons-thumbnail.png
+alt: image-alt
+project-date: 2015 - Present
+category: Creativity
+description: <a href="/blog">ReallyWhat</a> is a blog about finding stories from data.
+
+---
