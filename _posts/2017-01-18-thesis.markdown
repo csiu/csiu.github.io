@@ -1,6 +1,6 @@
 ---
-title: M.Sc. Thesis
-subtitle: Epigenetics
+title: M.Sc. Candidate
+subtitle: Thesis
 layout: default
 modal-id: 1
 date: 2017-01-18
