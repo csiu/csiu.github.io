@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2017-01-18
 img:
-thumbnail: frog-thumbnail.jpg
+thumbnail: frog-thumbnail.png
 alt: image-alt
 project-date: 2015 - Present
 category:
