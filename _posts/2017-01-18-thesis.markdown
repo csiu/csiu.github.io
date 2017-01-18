@@ -1,14 +1,14 @@
 ---
-title: Thesis
+title: M.Sc. Thesis
 subtitle: Epigenetics
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2017-01-17
+img:
+thumbnail: frog-thumbnail.jpg
 alt: image-alt
 project-date: 2015 - Present
 category:
-description: Characterization of the normal thyroid reference epigenome<br>In my thesis work, we compare the consistency of chromatin state annotations across the epigenomes from the grossly uninvolved tumour-adjacent thyroid tissue of four human individuals using ChIP-sequencing and RNA-sequencing data. We examine 6 histone modifications, identify chromatin states using hidden Markov models, produce a new metric for model selection, and establish epigenomic maps of 19 chromatin states.
+description: <h4>Characterization of the normal thyroid reference epigenome</h4>In my thesis work, we compare the consistency of chromatin state annotations across the epigenomes from the grossly uninvolved tumour-adjacent thyroid tissue of 4 human individuals using ChIP-sequencing and RNA-sequencing data. We examine 6 histone modifications, identify chromatin states using hidden Markov models, produce a new metric for model selection, and establish epigenomic maps of 19 chromatin states.
 
 ---

@@ -1,0 +1,13 @@
+---
+title: CGS-M
+subtitle: $17,500 Scholarship
+layout: default
+modal-id: 3
+date: 2017-01-16
+img:
+thumbnail: lib-thumbnail.png
+alt: image-alt
+project-date: 2015
+description: <h4>Canada Graduate Scholarships - Master’s (CGS-M)</h4>The objective of the CGS-M Program is to help develop research skills and assist in the training of highly qualified personnel by supporting students who demonstrate a high standard of achievement in undergraduate and early graduate studies. Administered by the Tri-Council (NSERC, SSHRC, CIHR), the CGS-M is a non-renewable award valued at $17,500 for 12 months.
+
+---

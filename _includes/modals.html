@@ -14,17 +14,26 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            {% if post.img != null %}
+                            {% if post.img %}
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             {% endif %}
                             <p>{{ post.description }}</p>
                             <ul class="list-inline item-details">
+                                {% if post.location %}
+                                <li>Location:
+                                    <strong>{{ post.location }}</strong>
+                                </li>
+                                {% endif %}
+                                {% if post.project-date %}
                                 <li>Date:
                                     <strong>{{ post.project-date }}</strong>
                                 </li>
+                                {% endif %}
+                                {% if post.category %}
                                 <li>Category:
                                     <strong>{{ post.category }}</strong>
                                 </li>
+                                {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

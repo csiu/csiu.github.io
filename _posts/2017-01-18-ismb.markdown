@@ -1,0 +1,15 @@
+---
+title: ISMB 2016
+subtitle: Travel awards & Poster prize
+layout: default
+modal-id: 2
+date: 2017-01-17
+img: 20160708_080708.jpg
+thumbnail: ismb-thumbnail.png
+alt: image-alt
+project-date: July 8-12, 2016
+category:
+location: Orlando, Florida
+description: <h4>Intelligent Systems for Molecular Biology (ISMB)</h4>ISMB, hosted by the International Society for Computational Biology (ISCB), is the world’s largest bioinformatics/computational biology conference. It is a multidisciplinary forum for disseminating the latest developments and applications of advanced computational methods for biological problems. In the 2 days preceding the conference, there are meetings such as the Regulatory Genomics Special Interest Group (RegGenSIG) offered to enable registered participants to learn more on the latest methods and tools within specialty research areas.<h3>Highlights</h3>Awarded the CEEHRC Travel Award valued at $1,000<br>Awarded the John Bosdet Memorial Fund valued at $500<br>First time on a plane<br>Presented a poster during the RegGenSIG & main conference<br>Awarded an outstanding poster prize during RegGenSIG<br>
+
+---
