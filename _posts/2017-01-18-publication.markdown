@@ -9,6 +9,6 @@ thumbnail: type-thumbnail.jpg
 alt: image-alt
 project-date:
 category:
-description: <a href="https://scholar.google.ca/citations?user=JYYNokd_16EC&hl=en" target="_blank">3 papers</a>
+description: <a href="https://scholar.google.ca/citations?user=JYYNokd_16EC&hl=en" target="_blank">3 co-authorships</a> (+1 in submission) & 1 acknowledgement
 
 ---
