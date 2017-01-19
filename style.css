@@ -1,3 +1,30 @@
 ---
 layout: style
 ---
+
+aside#cv {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+aside#cv .section-heading {
+    color: #fff;
+}
+
+aside#cv .text-muted {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    text-transform: none;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+aside#cv button {
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
