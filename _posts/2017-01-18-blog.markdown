@@ -4,7 +4,7 @@ subtitle: Stories from data
 layout: default
 modal-id: 5
 date: 2017-01-14
-img:
+img: blog.png
 thumbnail: blog2-thumbnail.png
 alt: image-alt
 project-date: 2015 - Present
