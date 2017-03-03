@@ -1,6 +1,6 @@
 ---
 title: My blog
-subtitle: From an aspiring data scientist
+subtitle: As an aspiring data scientist
 layout: default
 modal-id: 5
 date: 2017-01-18
