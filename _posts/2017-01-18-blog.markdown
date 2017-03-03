@@ -1,6 +1,6 @@
 ---
-title: Blog
-subtitle: Stories from data
+title: My blog
+subtitle: From an aspiring data scientist
 layout: default
 modal-id: 5
 date: 2017-01-14
@@ -8,6 +8,5 @@ img: blog.png
 thumbnail: blog2-thumbnail.png
 alt: image-alt
 project-date: 2015 - Present
-description: <a href="/blog">ReallyWhat</a> is a blog about finding stories from data.
-
+description: <a href="/blog">ReallyWhat</a> is a blog I keep to document and share my experience in data science. Recently I challenged myself to produce something ever day for 100 days. So far I have used machine learning methods from Scikit-learn to enter Kaggle competitions, explored data with Python in Jupyter Notebooks, and produced beautiful data visualizations in D3.
 ---

@@ -1,5 +1,5 @@
 ---
-title: B.Sc.
+title: BSc
 subtitle: Biochemistry
 layout: default
 modal-id: 6
