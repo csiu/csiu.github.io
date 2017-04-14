@@ -2,6 +2,10 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ *
+ * The theme has also been modified by Celia Siu on Apri 14, 2017 to
+ * include elements of the Freelancer theme
+ * (https://startbootstrap.com/template-overviews/freelancer/)
  */
 
 body {
@@ -173,11 +177,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
+    width: 100%;
+    z-index: 3;
+    font-family: {{ site.data.template.font.navbar }};
 }
 
-.navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #{{ site.data.template.color.primary }};
+.navbar-custom .navbar-brand .navbar-default {
+  color: white;
+  padding: 20px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -208,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: 800;
     letter-spacing: 1px;
     color: #fff;
     -webkit-transition: all ease .35s;
@@ -245,7 +252,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -268,60 +275,68 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
+    background: #{{ site.data.template.color.header }};
     background-image: url('{{ site.baseurl }}/{{ site.headerimg }}');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
-
-header .intro-text {
+header .container {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 22px;
-    font-style: italic;
-    line-height: 22px;
+header .intro-text .intro-heading {
+    font-size: 1.25em;
+    font-weight: 300;
 }
 
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
+header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+header .intro-text .name {
+    display: block;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
+    text-transform: uppercase;
     font-weight: 700;
-    line-height: 50px;
+    font-size: 2em;
 }
 
 @media(min-width:768px) {
-    header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+    header .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
-
-    header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
-        font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
+    header .intro-text .name {
+        font-size: 4.75em;
     }
-
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
-        text-transform: uppercase;
-        font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 1.75em;
     }
+}
+hr.star-light,
+hr.star-primary {
+    padding: 0;
+    border: none;
+    border-top: solid 5px;
+    text-align: center;
+    max-width: 250px;
+    margin: 25px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+    content: "\f111";
+    font-family: FontAwesome;
+    display: inline-block;
+    position: relative;
+    top: -0.8em;
+    font-size: 2em;
+    padding: 0 0.25em;
+}
+hr.star-light {
+    border-color: white;
+}
+hr.star-light:after {
+    /*background-color: #7aaca2;*/
+    color: white;
 }
 
 section {
