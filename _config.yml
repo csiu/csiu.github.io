@@ -1,6 +1,7 @@
 url: https://csiu.github.io
 baseurl:
-headerimg: img/header-bg.png
+headerimg:
+#img/header-bg.png
 
 # Site settings
 title: Celia Siu
