@@ -1,8 +1,8 @@
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 19adb7
-  secondary: 5ec5cc
-  header: 986F65
+  primary: FFBE48     # Header selection color
+  secondary: 333      # Color of highlighted links
+  header: 363636      # Background of about page
   secondary-dark: 333
   muted: 777
 

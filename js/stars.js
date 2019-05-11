@@ -36,7 +36,7 @@ setInterval(function() {
     .attr("points", function(d) {
       return CalculateStarPoints(-30, 0, 5, d.size, d.size / 2);
     })
-    .style('fill', 'black')
+    .style('fill', '#FFBE48')
     .style('fill-opacity', '0.9')
     .call(force.drag);
 
